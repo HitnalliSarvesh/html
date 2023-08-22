@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>GETTING 2 COLUMNS</div>
+    <div class="row"> 
+       <p class="col-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, a nihil labore velit </p>
+       <p class="col-6"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <div>GETTING 3 COLUMNS</div>
+    <div class="row">
+        <p class="col-4 text-success"> Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="col-4 text-success"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="col-4 text-success">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </div>
+
+    <div>GETTING 4 COLUMNS</div>
+    <div class="row">
+        <p class="col-3 text-primary"> Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="col-3 text-primary"> Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="col-3 text-primary">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <p class="col-3 text-primary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae!</p>
+    </div>
+
+    <div class="row">
+        <div class="col-3"> <img src="C:\Users\Admin\Downloads\RCB.jpeg"> </div>
+        <div class="col-3"> <img src="C:\Users\Admin\Downloads\RCB.jpeg"> </div>
+        <div class="col-3"> <img src="C:\Users\Admin\Downloads\RCB.jpeg"> </div>
+        <div class="col-3"> <img src="C:\Users\Admin\Downloads\RCB.jpeg"> </div>
+    </div>
+
+    <h3>CREATING A FORM VERTICALLY</h3>
+    <form>
+        <div class="form-group">
+            <label for="">Enter Name</label>
+            <input type="text" name="firstname" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Email ID</label>
+            <input type="email" name="Email" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-succcess">Submit</button>
+        <button type="reset" class="btn btn-warning">Reset</button>
+    </form>
+
+    <h3>CREATING A FORM HORIZONTALLY</h3>
+    <form class="container form-inline">
+        <div class="form-group">
+            <label for="">Enter Name</label>
+            <input type="text" name="firstname" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Email ID</label>
+            <input type="email" name="Email" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-succcess">Submit</button>
+        <button type="reset" class="btn btn-warning">Reset</button>
+    </form>
+
+</body>
+</html>
+<!--To make columns we use this bootstrap grid to create side by side.-->

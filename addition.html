@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculation</title>
+    <script>
+        function addition(){
+            console.log("Calling addition function")
+            var num1 = document.getElementById("num1")
+            console.log(num1)
+            console.log(num1.value)
+            var num2 = document.getElementById("num2")
+            console.log(num2)
+            console.log(num2.value)
+            var result = parseInt(num1.value) + parseInt(num2.value)
+            console.log(result)
+        }
+        function substraction(){
+            console.log("Calling substraction function")
+            var num3 = document.getElementById("num3")
+            console.log(num3)
+            console.log(num3.value)
+            var num4 = document.getElementById("num4")
+            console.log(num4)
+            console.log(num4.value)
+            var result1 = parseInt(num3.value) - parseInt(num4.value)
+            console.log(result1)
+        }
+        function multiplication(){
+            console.log("Calling multiplication function")
+            var num5 = document.getElementById("num5")
+            console.log(num5)
+            console.log(num5.value)
+            var num6 = document.getElementById("num6")
+            console.log(num6)
+            console.log(num6.value)
+            var result2 = parseInt(num5.value) * parseInt(num6.value)
+            console.log(result2)
+        }
+        function division(){
+            console.log("Calling division function")
+            var num7 = document.getElementById("num7")
+            console.log(num7)
+            console.log(num7.value)
+            var num8 = document.getElementById("num8")
+            console.log(num8)
+            console.log(num8.value)
+            var result3 = parseInt(num7.value) / parseInt(num8.value)
+            console.log(result3)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <div>
+            <label>Enter Number 1</label>
+            <input type="text" name="num1" id="num1"> 
+        </div>
+        <div>
+            <label>Enter Number 2</label>
+            <input type="text" name="num2" id="num2">
+        </div>
+        <button type="button" onclick="addition()">Add</button>
+    </form>
+    <form>
+        <div>
+            <label>Enter Number 3</label>
+            <input type="text" name="num3" id="num3"> 
+        </div>
+        <div>
+            <label>Enter Number 4</label>
+            <input type="text" name="num4" id="num4">
+        </div>
+        <button type="button" onclick="substraction()">Substract</button>
+    </form>
+    <form>
+        <div>
+            <label>Enter Number 5</label>
+            <input type="text" name="num5" id="num5"> 
+        </div>
+        <div>
+            <label>Enter Number 4</label>
+            <input type="text" name="num6" id="num6">
+        </div>
+        <button type="button" onclick="multiplication()">Multiply</button>
+    </form>
+    <form>
+        <div>
+            <label>Enter Number 7</label>
+            <input type="text" name="num7" id="num7"> 
+        </div>
+        <div>
+            <label>Enter Number 8</label>
+            <input type="text" name="num8" id="num8">
+        </div>
+        <button type="button" onclick="division()">Divide</button>
+    </form>
+</body>
+</html>

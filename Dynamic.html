@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <script>   //script tag is used to write javascript//
+        //JavaScript code
+        console.log("Introduction to JavaScript")
+        // console.log - used to print the statement
+        console.log(a) //Hoisting ----before declaring or after declaring concept called hoisting
+        var a    //var variableName
+        console.log(a)
+        // console-Reference
+        // log-function
+        console.log(typeof(a))//undefined datatype
+        // typeof- function
+        var b=10
+        console.log(b)
+        console.log(typeof(b))//number datatype
+        b='JavaScript'
+        console.log(typeof(b))//String datatype
+        console.log(b)
+        b=true
+        console.log(b)
+        console.log(typeof(b))//boolean datatype
+        // Datatypes
+        //undefined, String, number, boolean
+        //Functions
+        //syntax
+        // function functionName(){//}
+        function display(){
+            console.log("calling display")
+        }
+        display()
+
+        function add(a,b){
+            console.log(a)
+            console.log(b)
+        }
+        add(10,20)
+     document.write("Introduction to JavaScript")
+     document.write("<h1>JavaScript is used to create a Dynamic WebPages </h1>")
+     document.write("<h2>JavaScript is used to create a Dynamic WebPages </h2>")
+     document.write("<h3>JavaScript is used to create a Dynamic WebPages </h3>")
+     document.write("<h4>JavaScript is used to create a Dynamic WebPages </h4>") 
+     document.write("<h5JavaScript is used to create a Dynamic WebPages </h5>")
+     document.write("<h6>JavaScript is used to create a Dynamic WebPages </h6>")
+     document.write("<p>Introduction to JavaScript. JavaScript is used to create a Dynamic WebPages</p>")
+   
+     // button action click - response
+     // event handling - action - events- click
+     //Event handling is done with the help of functions.   
+
+function clickme(){
+    console.log("Calling function clickme")
+    var message=document.getElementById("message")
+    console.log(message)
+    message.innerHTML='Calling function clickme'
+    message.style.color='red'
+
+}
+// function clickme(){
+//     console.log("Calling function clickme")
+// }
+
+</script>
+    <body>
+        <!-- JavaScript -->
+        <h1>Introduction to JavaScript</h1>
+
+        <button onclick="clickme()">clickme</button>
+        <span id="message"></span>
+        <br>
+        <button onmouseover="clickme()">clickme</button>
+    </body>
+</html>
